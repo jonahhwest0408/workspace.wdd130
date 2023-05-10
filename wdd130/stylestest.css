@@ -1,0 +1,49 @@
+body { 
+    background-color: pink;
+}
+h1 { 
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+h1:hover {
+    color: black;
+}
+.education { 
+    color: white;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: small;
+}
+.quote {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: medium;
+}
+.steps-four {
+    margin: 0 auto;
+    color: black;
+    width: 400px;
+    font-weight: bold;
+}
+img { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+.quote-two { 
+    color: white;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer { 
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    padding-top: 10px;
+}
