@@ -1,0 +1,28 @@
+body {
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+header img {
+    width: 50%;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a { 
+    text-align: center;
+    color: rgba(77, 47, 3, 0.986);
+    text-decoration: none;
+    padding: 35px;
+}
