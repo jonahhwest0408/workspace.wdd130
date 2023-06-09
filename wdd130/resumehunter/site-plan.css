@@ -9,7 +9,6 @@ Fonts are separated by a | */
   --secondary-color: #4e3d42;
   --accent1-color: #9f9f92;
   --accent2-color: #6d6466;
-  --accent3-color: #fe6d73;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "inconsolata extralight200";
@@ -23,8 +22,8 @@ Fonts are separated by a | */
   --paragraph-background-color: #6d6466;
   --nav-link-color: #4e3d42;
   --nav-background-color: #c9d5b5;
-  --nav-hover-link-color: #fe6d73;
-  --nav-hover-background-color: #fe6d73;
+  --nav-hover-link-color: #4e3d42;
+  --nav-hover-background-color: #c9d5b5;
 }
 
 
@@ -83,19 +82,16 @@ p {
 }
 
 .primary {
-  background-color: var(#c9d5b5);
+  background-color: var(--primary-color);
 }
 .secondary {
-  background-color: var(#4e3d42);
+  background-color: var(--secondary-color);
 }
 .accent1 {
-  background-color: var(#9f9f92);
+  background-color: var(--accent1-color);
 }
 .accent2{
-  background-color: var(#6d6466);
-}
-.accent3 {
-    background-color: var(#fe6d73);
+  background-color: var(--accent2-color);
 }
 p.colored {
   background-color: var(#c9d5b5);
@@ -112,12 +108,14 @@ nav  {
   list-style-type: none;
   display: flex;
 
+
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+
 
 }
 nav a:link, nav a:visited {
