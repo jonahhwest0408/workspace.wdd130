@@ -6,6 +6,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #b0a084;
 }
 header img {
     width: 50%;
@@ -25,6 +26,10 @@ nav a {
     color: rgba(77, 47, 3, 0.986);
     text-decoration: none;
     padding: 35px;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: white;
 }
 .rivers-title {
     display: flex;
@@ -67,6 +72,10 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 20px;
+}
+footer a:hover {
+    color: white;
 }
   
   
