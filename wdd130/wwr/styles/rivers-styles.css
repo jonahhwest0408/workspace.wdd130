@@ -26,3 +26,50 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+.rivers-title {
+    display: flex;
+    justify-content: center;
+}
+#River-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+  
+  .main-fork,
+  .gray-canyon,
+  .grand-canyon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+  .main-fork img,
+  .gray-canyon img,
+  .grand-canyon img {
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+}
+footer {
+    background-color: #b0a084;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+  
+  
+  
+
