@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Playfair:wght@300&display=swap');
+
+:root {
+    --heading-font: "inconsolata++extralight200";
+    --paragraph-font: "playfair++light300";
+}
+body {
+    background-color: #a79fa1;
+}
+h1, p {
+    font-family: var(--paragraph-font);
+}
+nav {
+    background-color: #6d6466;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    width: 700px;
+    border: 2px solid #302e2e;
+  }
+  
+  nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    color: #e9e3e3;
+  }
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #a79fa1;
+    color: #302e2e;
+  }
+  .intro-container h1 {
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #302e2e;
+  }
+  
+  .item:nth-child(odd) {
+    flex-direction: row;
+  }
+  
+  .item:nth-child(even) {
+    flex-direction: row;
+  }
+  
+  .item:nth-child(even) img {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  
+  .item img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .item p {
+    flex: 1;
+    overflow-wrap: break-word;
+    font-size: 20px;
+  }
+  footer {
+    padding-top: 70px;
+  }
+  .goals-section {
+    color: #d6d4d4;
+    border: 2px solid #302e2e;
+  }
+  .goals-section h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .goals-section li {
+    font-size: 19px;
+  }

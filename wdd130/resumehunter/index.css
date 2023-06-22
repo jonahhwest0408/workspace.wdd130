@@ -1,0 +1,92 @@
+body {
+    background-color: #a79fa1;
+  }
+  
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #a79fa1;
+    color: #302e2e;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  #introduction {
+    border: 2px solid #302e2e;
+    padding: 10px;
+  }
+  
+  #introduction h2 {
+    text-align: center;
+  }
+  
+  #introduction p {
+    width: 700px;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .main-logo img {
+    width: 300px;
+    height: 350px;
+    padding-bottom: 20px;
+  }
+  
+  nav {
+    background-color: #6d6466;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    width: 700px;
+    border: 2px solid #302e2e;
+  }
+  
+  nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    color: #e9e3e3;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #302e2e;
+  }
+  
+  .left-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .content {
+    margin-left: 40px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  main {
+    padding-bottom: 100px;
+  }
