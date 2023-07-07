@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Career Portfolio Hub</title>
     <link type="text/css" rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
   </head>
 <body>
     <div class="intro-container">
@@ -39,9 +40,18 @@
       </main>
       <footer>
         <div class="navbar">
-          <a href="#home" class="active">Resume</a>
-          <a href="#social">LinkedIn</a>
-          <a href="#resume">Contact</a>
+          <a href="file:///C:/Users/Jonah%20West/Documents/official_resume_jonahwest.docx" download="official_resume_jonahwest.docx" class="active">Resume</a>
+          <a href="https://www.linkedin.com/in/jonah-west-ab9224179/">LinkedIn</a>
+          <a href="#" onclick="openContactPopup()">Contact</a>
+        </div>
+        
+        <div id="contactPopup" class="popup">
+          <div class="popup-content">
+            <span class="close" onclick="closeContactPopup()">&times;</span>
+            <h3>Contact Me!</h3>
+            <p>Email: jonah.hwest0408@gmail.com</p>
+            <p>Thank you for contacting me! Your email will be answered within 24 hours.</p>
+          </div>
         </div>
       </footer>
 </body>
