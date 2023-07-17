@@ -5,3 +5,6 @@ function openContactPopup() {
   function closeContactPopup() {
     document.getElementById("contactPopup").style.display = "none";
   }
+
+
+
